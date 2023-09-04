@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ponto.API", "Ponto.API.csproj", "{CB4C7547-3280-48F2-A754-DF18755CF892}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ponto.Domain", "..\Ponto.Domain\Ponto.Domain.csproj", "{44312E6A-A9E7-46DB-B57B-F203213D19DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ponto.Persistence", "..\Ponto.Persistence\Ponto.Persistence.csproj", "{F31BD8FE-D94E-4CB4-A0DF-04AE3E6856B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ponto.Application", "..\Ponto.Application\Ponto.Application.csproj", "{93DB390E-64FC-410B-85E1-CA99DA3CD866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB4C7547-3280-48F2-A754-DF18755CF892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4C7547-3280-48F2-A754-DF18755CF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4C7547-3280-48F2-A754-DF18755CF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4C7547-3280-48F2-A754-DF18755CF892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44312E6A-A9E7-46DB-B57B-F203213D19DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44312E6A-A9E7-46DB-B57B-F203213D19DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44312E6A-A9E7-46DB-B57B-F203213D19DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44312E6A-A9E7-46DB-B57B-F203213D19DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31BD8FE-D94E-4CB4-A0DF-04AE3E6856B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31BD8FE-D94E-4CB4-A0DF-04AE3E6856B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31BD8FE-D94E-4CB4-A0DF-04AE3E6856B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31BD8FE-D94E-4CB4-A0DF-04AE3E6856B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DB390E-64FC-410B-85E1-CA99DA3CD866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DB390E-64FC-410B-85E1-CA99DA3CD866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DB390E-64FC-410B-85E1-CA99DA3CD866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DB390E-64FC-410B-85E1-CA99DA3CD866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6581D7F7-E60E-4820-BF2E-69F89C251226}
+	EndGlobalSection
+EndGlobal
